@@ -14,7 +14,7 @@ int isnum(char* s)
    for(i = 0; i < strlen(s); i++)
    {
       
-      if((i = 0) && (s[0] == '-'))
+      if((i == 0) && (s[0] == '-'))
       {
         i++;
       }
