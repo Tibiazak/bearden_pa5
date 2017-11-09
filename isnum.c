@@ -5,11 +5,12 @@
  */
 
 #include <ctype.h>
+#include <string.h>
 
 int isnum(char* s)
 {
    int i;
-   for(i = 0; number[i] != 0; i++)
+   for(i = 0; i < strlen(s); i++)
    {
       if((i = 0) && s[0] == '-')
       {
