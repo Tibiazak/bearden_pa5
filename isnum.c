@@ -5,7 +5,6 @@
  */
 
 #include <ctype.h>
-#include <stdbool.h>
 
 int isnum(char* s)
 {
@@ -18,9 +17,9 @@ int isnum(char* s)
       }
       if (!isdigit(s[i]))
       {
-         return false;
+         return 0;
       }
 
    }
-   return true;
+   return 1;
 }
