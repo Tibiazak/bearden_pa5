@@ -10,8 +10,10 @@
 int isnum(char* s)
 {
    int i;
+   printf("%s\n", s);
    for(i = 0; i < strlen(s); i++)
    {
+      printf("%s\n", s[i]);
       /*
       if((i = 0) && s[0] == '-')
       {
