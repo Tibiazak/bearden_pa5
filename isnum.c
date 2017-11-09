@@ -13,11 +13,11 @@ int isnum(char* s)
    for(i = 0; i < strlen(s); i++)
    {
       /*
-      if((i = 0) && s[0] == '-')
-      {
-         i++;
-      }
-      */
+       *if((i = 0) && s[0] == '-')
+       *{
+       *  i++;
+       *}
+       */
       if (!isdigit(s[i]))
       {
          printf("not a digit\n");
