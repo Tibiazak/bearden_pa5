@@ -14,6 +14,7 @@
 
 int main(int argc, char** argv)
 {
+   setlinebuf(stdout);
    int total = 0;
    int i;
    int j;
