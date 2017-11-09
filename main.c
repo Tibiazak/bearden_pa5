@@ -45,7 +45,7 @@ int main(int argc, char** argv)
       {
          for(j = i+1; j < argc; j++)
          {
-            if(strstr(argv[j], argv[i]))
+            if(strstr(argv[j], argv[i]) != NULL)
             {
                printf("%s is a substring of %s\n", argv[i], argv[j]);
             }
