@@ -28,17 +28,20 @@ int main(int argc, char** argv)
       return 2;
    }
 
-   //main loop
-   //go through the command line args
-   //check for integers, accumulate if int
-   //check for substrings if string
+   //int loop, check if number, if yes add to total
    for(i = 1; i < argc; i++)
    {
       if(isnum(argv[i]))
       {
          total += atoi(argv[i]);
       }
-      else
+   }
+   printf("Total integers: %d\n", total);
+
+   //string loop, check for substrings and print
+   for(i = 1; i < argc; i++)
+   {
+      if(!isnum(argv[i]))
       {
          for(j = i+1; j < argc; j++)
          {
