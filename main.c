@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <ctype.h>
-#include <isnum.h>
 #include <string.h>
+#include "isnum.h"
 
 #define MAX 200 //set max amount of arguments
 
