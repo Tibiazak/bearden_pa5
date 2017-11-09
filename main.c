@@ -43,6 +43,7 @@ int main(int argc, char** argv)
    {
       if(!isnum(argv[i]))
       {
+         printf("%s is not a number\n", argv[i]);
          for(j = i+1; j < argc; j++)
          {
             if(strstr(argv[j], argv[i]) != NULL)
