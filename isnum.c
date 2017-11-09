@@ -19,7 +19,6 @@ int isnum(char* s)
       {
          return 0;
       }
-
    }
    return 1;
 }

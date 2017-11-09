@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+#include <stdlib.h> 
 #include "isnum.h"
 
 #define MAX 200 //set max amount of arguments
