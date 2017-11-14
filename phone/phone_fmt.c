@@ -5,6 +5,7 @@
  */
 
 #include <stdio.h>
+#include <ctype.h>
 
 char * phone_fmt(char * num)
 {
