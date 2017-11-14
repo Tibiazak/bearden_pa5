@@ -9,6 +9,7 @@
 
 int main()
 {
+   int i = 0;
    char num[11];
    char * number = &num[0];
    num[10] = '\0';
@@ -16,7 +17,7 @@ int main()
    number = phone_fmt(&num[0]);
    if(number != NULL)
    {
-      printf("%10s\n", number);
+      printf("(%c%c%c) %c%c%c-%c%c%c%c", num[0],num[1],num[2],num[3],num[4],num[5],num[6],num[7],num[8],num[9]);
       return 0;
    }
    else
