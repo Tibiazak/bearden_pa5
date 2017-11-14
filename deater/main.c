@@ -12,11 +12,17 @@
 
 #define MAX 200 //set max amount of arguments
 
+//a function to take in any number (up to 200) of command line arguments
+//then check if each string is a substring of a later string, and total all integers
+
 int main(int argc, char** argv)
 {
+   //variable declaration
    int total = 0;
    int i;
    int j;
+
+   //check if there are too many or too few arguments
    if(argc > MAX)
    {
       printf("Too many arguments! The most you can have is %d.\n", MAX);
