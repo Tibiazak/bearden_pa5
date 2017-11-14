@@ -1,0 +1,6 @@
+This is a program to take in up to 200 characters from standard input
+It will check the input and take the first 10 digits,
+format them as a telephone number, and output them to the screen.
+
+If no executable is present, the command "make all" will compile the program.
+Once compiled, execute by running ./phone and it will prompt for input.
