@@ -8,12 +8,13 @@
 
 int main()
 {
-   char * number;
+   char num[10];
+   char * number = num[0];
    printf("Please enter a phone number in any format: ");
-   number = phone_fmt();
+   number = phone_fmt(&num[0]);
    if(number != NULL)
    {
-      printf("%s\n", number);
+      printf("%s\n", num);
       return 0;
    }
    else
