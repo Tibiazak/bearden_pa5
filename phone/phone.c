@@ -20,7 +20,7 @@ int main()
    }
    else
    {
-      printf("Error: not enough digits on input!");
+      printf("Error: not enough digits on input!\n");
       return 1;
    }
 }

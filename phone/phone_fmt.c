@@ -15,7 +15,7 @@ char * phone_fmt(char * num)
    fgets(input, 200, stdin);
    for(i = 0; i < 200; i++)
    {
-      if(j == 11)
+      if(j == 10)
       {
          return num;
       }
