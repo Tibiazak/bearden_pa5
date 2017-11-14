@@ -17,7 +17,7 @@ int main()
    number = phone_fmt(&num[0]);
    if(number != NULL)
    {
-      printf("(%c%c%c) %c%c%c-%c%c%c%c", num[0],num[1],num[2],num[3],num[4],num[5],num[6],num[7],num[8],num[9]);
+      printf("(%c%c%c) %c%c%c-%c%c%c%c\n", num[0],num[1],num[2],num[3],num[4],num[5],num[6],num[7],num[8],num[9]);
       return 0;
    }
    else
