@@ -32,7 +32,7 @@ char * phone_fmt(char * num)
          num[j] = input[i];
          j++;
       }
-      else if((input[i] == "\n") || (input[i] == NULL)) //check if we've exhausted input
+      else if((input[i] == '\n') || (input[i] == '\0')) //check if we've exhausted input
       {
          return NULL;
       }
