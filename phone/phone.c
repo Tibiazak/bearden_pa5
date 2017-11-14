@@ -5,6 +5,7 @@
  */
 
 #include <stdio.h>
+#include "phone_fmt.h"
 
 int main()
 {
