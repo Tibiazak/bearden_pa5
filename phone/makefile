@@ -7,4 +7,4 @@ phone.o: phone.c phone_fmt.c
 phone_fmt.o: phone_fmt.c phone_fmt.h
 	gcc -c phone_fmt.c
 clean:
-	-rm -rm *.o phone
+	-rm -rf *.o phone
