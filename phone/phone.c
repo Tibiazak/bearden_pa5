@@ -15,7 +15,6 @@ int main()
    //variable declaration
    char num[11]; //array for the phone number
    char * number = &num[0];
-   //num[10] = '\0';
 
    printf("Please enter a phone number in any format: ");
    number = phone_fmt(&num[0]); //calls the function phone_fmt to get input and select the digits
