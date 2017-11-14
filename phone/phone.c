@@ -9,7 +9,7 @@
 
 int main()
 {
-   char num[10];
+   char num[11];
    char * number = &num[0];
    printf("Please enter a phone number in any format: ");
    number = phone_fmt(&num[0]);
