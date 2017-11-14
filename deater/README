@@ -1,0 +1,4 @@
+This is a program to check substrings and count integers.
+It will take any amount of input as command-line arguments, up to 200 arguments.
+If the executable is not present, type "make all" to compile it.
+Once compiled, ./deater <args> will execute the program.
