@@ -17,6 +17,7 @@ char * phone_fmt(char * num)
    {
       if(j == 10)
       {
+         printf("%s\n", num);
          return num;
       }
       if(isdigit(input[i]))
