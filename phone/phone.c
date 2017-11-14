@@ -15,7 +15,7 @@ int main()
    number = phone_fmt(&num[0]);
    if(number != NULL)
    {
-      printf("%10s\n", num);
+      printf("%10s\n", number);
       return 0;
    }
    else
